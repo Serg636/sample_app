@@ -10,11 +10,15 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'coffee-script-source', '1.8.0'
+#gem 'C',    '1.3.2-x86-mingw32'
+#gem 'win32console',    '1.3.2.pre.x86.pre.mingw32'
+
 
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
+
 end
 
 group :development do
@@ -30,6 +34,11 @@ group :test do
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
+  #gem 'win32console',  '~> 1.3'
+  #gem 'win32console',     '~> 1.3.2'
+    #gem 'win32console'
+
+
 end
 
 group :production do

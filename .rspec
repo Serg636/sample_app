@@ -1,0 +1,6 @@
+--colour
+
+ Spec::Rake::SpecTask.new(:your_task_name) do |t|
+    t.spec_opts = ["--color"]
+    t.spec_files = [] # List of spec files
+  end
