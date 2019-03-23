@@ -1,6 +1,5 @@
 class StaticPagesController < ApplicationController
   def home
-  	#render html:  "hello"
   end
 
   def help
@@ -8,5 +7,8 @@ class StaticPagesController < ApplicationController
 
 def about
   end
+
+  def contact
+end
 
 end
