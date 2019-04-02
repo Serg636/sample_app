@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.2.2.1'
+gem 'bcrypt',         '3.1.12'
+
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
@@ -18,7 +20,10 @@ gem 'coffee-script-source', '1.8.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
-  gem 'byebug',  '9.0.6', platform: :mri
+  #gem 'byebug', platform: [:mri, :mingw, :x64_mingw]
+  #gem 'byebug',  '9.0.6', platform: [:mri, :mingw, :x64_mingw]
+  #gem 'byebug',  '9.0.6', platform: :mri
+  gem 'byebug',  '11.0.1', platform: :mri
 
 end
 
